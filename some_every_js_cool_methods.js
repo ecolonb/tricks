@@ -16,7 +16,7 @@ const persons = [
 console.log(persons);
 
 let results = persons.some((person) => {
-  console.log("person: ", person);
+  console.log("Person: ", person);
   return person.age >= 18;
 });
 
